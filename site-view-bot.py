@@ -23,7 +23,6 @@ def run():
 
 
 if __name__ == '__main__':
-
 	with TorRequest(proxy_port=proxyPort, ctrl_port=ctrlPort, password=None) as tr:
 		for i in range(hits):
 			run()
