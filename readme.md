@@ -6,3 +6,4 @@
 6. brew services restart tor (mac) / sudo service tor restart
 7. python site-view-bot.py
 8. give full url link and number of views you need.
+9. you will get the viewer bot working
