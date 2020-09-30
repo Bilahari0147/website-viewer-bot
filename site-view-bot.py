@@ -23,10 +23,7 @@ def run():
 
 
 if __name__ == '__main__':
-	# if len(sys.argv) > 3:
-	#    if sys.argv[1] and sys.argv[2]:
-	# 		proxyPort=sys.argv[1]
-	# 		ctrlPort=sys.argv[2]
+
 	with TorRequest(proxy_port=proxyPort, ctrl_port=ctrlPort, password=None) as tr:
 		for i in range(hits):
 			run()
