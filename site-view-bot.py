@@ -11,7 +11,7 @@ print "Website Viewer"
 #Default Tor port configuration
 proxyPort=9050
 ctrlPort=9051
-site = raw_input("Enter your Site Address : ")
+site = raw_input("Enter the Site Address : ")
 hits = input("Enter The number of Viewers : ")
 
 
