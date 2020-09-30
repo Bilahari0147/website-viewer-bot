@@ -1,4 +1,5 @@
 1. brew install tor (mac) / sudo apt-get install tor (ubuntu)
+#provide methods to do the same##
 2. brew services start tor (mac) / sudo service tor start (ubuntu)
 3. sudo pip install requests
 4. pip install torrequest==0.1.0
